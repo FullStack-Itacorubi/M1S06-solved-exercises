@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios teóricos</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../shared-styles/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="title-wrapper">
+        <h3>M1S06 - Exercícios teóricos</h3>
+      </div>
+
+      <div id="page-links">
+        <a href="/index.html">Exercício prático</a>
+      </div>
+    </header>
+
+    <div id="page-content">
+      <div id="theoretical-exercises-wrapper">
+        <div class="theoretical-exercise">
+          <h3>[M1S06] Ex 1 - Javascript síncrono e assíncrono</h3>
+          <p>
+            Disserte um pouco sobre escopos síncronos e assíncronos em
+            Javascript.
+          </p>
+          <p>
+            R: Em escopos assíncronos podemos aguardar execuções que levam algum
+            tempo para serem executadas, para fazer isso usamos a palavra chave
+            <strong>await</strong>. Enquanto em escopos síncronos isso não é
+            possível, o Javascript faz a chamada para a execução não imediata e
+            não aguarda o fim da execução.
+          </p>
+        </div>
+        <div class="theoretical-exercise">
+          <h3>[M1S06] Ex 2 - Promises</h3>
+          <p>
+            Explique com suas palavras o que é uma promise, quais seus
+            principais métodos e estados.
+          </p>
+          <p>
+            R: Uma Promise em Javascript é como uma promessa da vida real, pode
+            ter um retonor positivo (resolve) ou um retorno negativo (reject).
+            Podemos criar Promises e em seguida fazer uso delas, ou utilizar
+            função provenientes de APIs Javascript ou bibliotecas que retornem
+            promises.
+          </p>
+        </div>
+        <div class="theoretical-exercise">
+          <h3>[M1S06] Ex 3 - Async/Await</h3>
+          <p>
+            As palavras chaves async e await são muito utilizadas em aplicações
+            Javascript. Fale sobre como e onde elas podem ser usadas.
+          </p>
+          <p>
+            A palavra-chave <strong>async</strong> é utilizada juntamente a
+            declaração de uma função para fazer com que ela tenha um escopo
+            assíncrono. Já a palvra-chave <strong>await</strong> é utilizada
+            antes de métodos/funções que não tenham um retorno imediato para
+            justamente esperar esse retorno e/ou fim da execução.
+          </p>
+        </div>
+        <div class="theoretical-exercise">
+          <h3>[M1S06] Ex 4 - Operador Spread</h3>
+          <p>Em que momento usamos o operador spread?</p>
+          <p>
+            O operador <strong>spread</strong> serve para espalhar as
+            propriedades de um objeto ou valores de um array. Isso pode ser
+            utilizado para concatenar arrays ou objetos, para espalhar valores
+            de arrays em chamadas de função ou para substituir/adicionat
+            propriedades a um objeto;
+          </p>
+        </div>
+        <div class="theoretical-exercise">
+          <h3>[M1S06] Ex 5 - Operador Rest</h3>
+          <p>Em que momentos usamos o operador rest?</p>
+          <p>
+            O operador <strong>rest</strong> faz com que um parâmetro de função
+            seja um array que espera uma quantidade ilimitada de valores e sem
+            restrição ao tipo do valor recebido.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
